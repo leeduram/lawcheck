@@ -1,0 +1,48 @@
+name: lawcheck
+description: 내 아이디어의 법률 리스크를 한 눈에 확인하는 앱
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+    # HTTP 통신
+  http: ^1.2.1
+
+  # 로컬 저장소 (히스토리)
+  shared_preferences: ^2.2.3
+
+  # XML 파싱 (법제처 API 응답)
+  xml: ^6.5.0
+
+  # 아이콘
+  cupertino_icons: ^1.0.6
+
+  # 외부 링크 열기 (판례 전문)
+  url_launcher: ^6.3.0
+
+  # Firebase (인기 주제 카운트)
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#1A56DB"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
