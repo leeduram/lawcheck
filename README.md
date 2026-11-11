@@ -21,6 +21,10 @@
 
 ## 화면
 
+| 입력 | 결과 (요약·법령) | 결과 (판례) | 판례 상세 |
+|---|---|---|---|
+| <img src="screenshots/main.jpg" width="200"> | <img src="screenshots/result.jpg" width="200"> | <img src="screenshots/cases.jpg" width="200"> | <img src="screenshots/detail.jpg" width="200"> |
+
 - 입력 화면: 자유 입력, 인기 주제 TOP 10, 검색 기록
 - 결과 화면: AI 요약, 법령 카드, 판례 카드
 - 상세 화면: 선택한 법령·판례 설명, 국가법령정보 원문 링크
